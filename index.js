@@ -2,7 +2,7 @@ import express from "express";
 import * as dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import UserModel from "./modals/usermodel.js";
 import nodemailer from "nodemailer";
 import randomstring from "randomstring";
